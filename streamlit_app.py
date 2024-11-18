@@ -130,7 +130,7 @@ if selection == "🏠 Home":
         unsafe_allow_html=True,
     )
     
-    profile_image = "images\profile.jpg"  # Update with actual path
+    profile_image = "/workspaces/shivamsgarg/image/profile.jpg"  # Update with actual path
     try:
         img = Image.open(profile_image)
         st.image(img, width=150, caption="Shivam Garg", use_container_width=True)  # Adjusted image size and round style
